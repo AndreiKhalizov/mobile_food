@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=414, initial-scale=1.0">
+  <title>Payment — Food Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="screen app payment-screen">
+    <header class="page-head">
+      <a href="cart.html"><img src="assets/back.svg" alt="back"></a>
+      <h1>Checkout</h1>
+      <span></span>
+    </header>
+    <section class="checkout-block">
+      <h2>Payment</h2>
+      <div class="method-card">
+        <label><input type="radio" checked name="pay"><span><img src="assets/card.svg" alt="card">Card</span></label>
+        <label><input type="radio" name="pay"><span><img src="assets/bank.svg" alt="bank">Bank account</span></label>
+        <label><input type="radio" name="pay"><span><img src="assets/paypal.svg" alt="paypal">Paypal</span></label>
+      </div>
+    </section>
+    <section class="checkout-block">
+      <h2>Delivery method</h2>
+      <div class="method-card">
+        <label><input type="radio" checked name="delivery"><span>Door delivery</span></label>
+        <label><input type="radio" name="delivery"><span>Pick up</span></label>
+      </div>
+    </section>
+    <div class="total-row"><span>Total</span><strong>N5,400</strong></div>
+    <a href="home.html" class="primary-btn checkout-btn">Proceed to payment</a>
+  </main>
+</body>
+</html>
